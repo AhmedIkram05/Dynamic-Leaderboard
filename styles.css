@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+input {
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.top-player {
+    background-color: #fffacd;
+    font-weight: bold;
+    background-color: rgba(255, 193, 7, 0.1) !important;
+    font-weight: 600;
+}
+
+.delete-btn {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+.sort-controls {
+    margin: 10px 0;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-delete {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-delete:hover {
+    background-color: #bb2d3b;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+}
+
+.toast-container {
+    z-index: 1050;
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: 1px solid rgba(0,0,0,.125);
+    padding: 1rem;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+#searchInput {
+    min-width: 200px;
+}
